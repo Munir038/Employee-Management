@@ -1,0 +1,20 @@
+.sidebar-container {
+  background-color: grey;
+  width: 15rem;
+  /* margin-top: 0.6rem; */
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar-link {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  background-color: lightblue;
+  text-decoration: none;
+}
+
+.sidebar-link.active {
+  background-color: #04aa6d;
+  color: white;
+}
